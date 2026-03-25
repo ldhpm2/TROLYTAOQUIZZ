@@ -383,7 +383,7 @@ const App: React.FC = () => {
                                                 </div>
                                                 <input
                                                     type="range"
-                                                    min="1" max="20"
+                                                    min="1" max="30"
                                                     value={questionCount}
                                                     onChange={(e) => setQuestionCount(parseInt(e.target.value))}
                                                     className="w-full h-2 bg-slate-200 rounded-lg appearance-none cursor-pointer accent-primary"
